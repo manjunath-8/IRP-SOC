@@ -1,0 +1,548 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(uart.o)
+                              build/fixed.o (uart_set_baud_rate)
+/home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(stdlib.o)
+                              build/fixed.o (printf)
+/home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(rawfloat.o)
+                              /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(stdlib.o) (ecvtbuf)
+/home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(crt.o)
+                              (_start)
+/home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(debug_uart.o)
+                              /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(stdlib.o) (tx_uart)
+/home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(interrupt.o)
+                              /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(crt.o) (interrupt_handler)
+/home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/../../../../riscv64-vega-elf/lib/rv32im/ilp32/libc.a(lib_a-memcpy.o)
+                              /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(stdlib.o) (memcpy)
+/home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/../../../../riscv64-vega-elf/lib/rv32im/ilp32/libc.a(lib_a-memset.o)
+                              /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(stdlib.o) (memset)
+/home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/../../../../riscv64-vega-elf/lib/rv32im/ilp32/libc.a(lib_a-s_modf.o)
+                              /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(rawfloat.o) (modf)
+/home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/../../../../riscv64-vega-elf/lib/rv32im/ilp32/libc.a(lib_a-strnlen.o)
+                              /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(stdlib.o) (strnlen)
+/home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(adddf3.o)
+                              /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(uart.o) (__adddf3)
+/home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(divdf3.o)
+                              /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(rawfloat.o) (__divdf3)
+/home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(eqdf2.o)
+                              /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(stdlib.o) (__eqdf2)
+/home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(gedf2.o)
+                              /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(rawfloat.o) (__gtdf2)
+/home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(ledf2.o)
+                              /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(stdlib.o) (__ltdf2)
+/home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(muldf3.o)
+                              /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(rawfloat.o) (__muldf3)
+/home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(subdf3.o)
+                              /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/../../../../riscv64-vega-elf/lib/rv32im/ilp32/libc.a(lib_a-s_modf.o) (__subdf3)
+/home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(fixdfsi.o)
+                              /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(rawfloat.o) (__fixdfsi)
+/home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(fixunsdfsi.o)
+                              /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(uart.o) (__fixunsdfsi)
+/home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(floatunsidf.o)
+                              /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(uart.o) (__floatunsidf)
+/home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(addsf3.o)
+                              /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(stdlib.o) (__addsf3)
+/home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(divsf3.o)
+                              /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(stdlib.o) (__divsf3)
+/home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(mulsf3.o)
+                              /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(stdlib.o) (__mulsf3)
+/home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(floatsisf.o)
+                              /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(stdlib.o) (__floatsisf)
+/home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+                              /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(adddf3.o) (__clzsi2)
+/home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(_clz.o)
+                              /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(_clzsi2.o) (__clz_tab)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 build/fixed.o
+ .data          0x0000000000000000        0x0 build/fixed.o
+ .bss           0x0000000000000000        0x0 build/fixed.o
+ .data          0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(uart.o)
+ .bss           0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(uart.o)
+ .data          0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(stdlib.o)
+ .bss           0x0000000000000000       0x10 /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(stdlib.o)
+ .data          0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(rawfloat.o)
+ .text          0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(crt.o)
+ .data          0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(crt.o)
+ .bss           0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(crt.o)
+ .INTERRUPT_isr_sect_0
+                0x0000000000000000      0x108 /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(crt.o)
+ .data          0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(debug_uart.o)
+ .bss           0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(debug_uart.o)
+ .text          0x0000000000000000      0x298 /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(interrupt.o)
+ .data          0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(interrupt.o)
+ .bss           0x0000000000000000      0x100 /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(interrupt.o)
+ .sbss          0x0000000000000000        0x4 /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(interrupt.o)
+ .comment       0x0000000000000000       0x13 /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(interrupt.o)
+ .riscv.attributes
+                0x0000000000000000       0x25 /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(interrupt.o)
+ .data          0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/../../../../riscv64-vega-elf/lib/rv32im/ilp32/libc.a(lib_a-memcpy.o)
+ .bss           0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/../../../../riscv64-vega-elf/lib/rv32im/ilp32/libc.a(lib_a-memcpy.o)
+ .data          0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/../../../../riscv64-vega-elf/lib/rv32im/ilp32/libc.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/../../../../riscv64-vega-elf/lib/rv32im/ilp32/libc.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/../../../../riscv64-vega-elf/lib/rv32im/ilp32/libc.a(lib_a-s_modf.o)
+ .bss           0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/../../../../riscv64-vega-elf/lib/rv32im/ilp32/libc.a(lib_a-s_modf.o)
+ .data          0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/../../../../riscv64-vega-elf/lib/rv32im/ilp32/libc.a(lib_a-strnlen.o)
+ .bss           0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/../../../../riscv64-vega-elf/lib/rv32im/ilp32/libc.a(lib_a-strnlen.o)
+ .data          0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(adddf3.o)
+ .bss           0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(adddf3.o)
+ .data          0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .bss           0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .data          0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(eqdf2.o)
+ .bss           0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(eqdf2.o)
+ .data          0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(gedf2.o)
+ .bss           0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(gedf2.o)
+ .data          0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(ledf2.o)
+ .bss           0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(ledf2.o)
+ .data          0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .bss           0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .data          0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(subdf3.o)
+ .bss           0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(subdf3.o)
+ .data          0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(fixdfsi.o)
+ .bss           0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(fixdfsi.o)
+ .data          0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(fixunsdfsi.o)
+ .bss           0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(fixunsdfsi.o)
+ .data          0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(floatunsidf.o)
+ .bss           0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(floatunsidf.o)
+ .data          0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(addsf3.o)
+ .bss           0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(addsf3.o)
+ .data          0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(divsf3.o)
+ .bss           0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(divsf3.o)
+ .data          0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(mulsf3.o)
+ .bss           0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(mulsf3.o)
+ .data          0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(floatsisf.o)
+ .bss           0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(floatsisf.o)
+ .data          0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+ .bss           0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+ .text          0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(_clz.o)
+ .data          0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(_clz.o)
+ .bss           0x0000000000000000        0x0 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(_clz.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD build/fixed.o
+START GROUP
+LOAD /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a
+LOAD /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/../../../../riscv64-vega-elf/lib/rv32im/ilp32/libc.a
+LOAD /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a
+LOAD /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/../../../../riscv64-vega-elf/lib/rv32im/ilp32/libm.a
+END GROUP
+                0x0000000000020000                . = 0x20000
+
+.text.init      0x0000000000020000      0x1f0
+ *(.text.init)
+ .text.init     0x0000000000020000      0x1f0 /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(crt.o)
+                0x0000000000020000                _start
+                0x00000000000200cc                trap_entry
+
+.text           0x00000000000201f0     0x6628
+ *(.text)
+ .text          0x00000000000201f0      0x7b8 /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(uart.o)
+                0x00000000000201f0                uart_init
+                0x00000000000202b8                uart_set_baud_rate
+                0x00000000000203ac                uart_configure
+                0x00000000000204e4                uart_putchar
+                0x0000000000020670                uart_getchar
+                0x0000000000020798                uart_getchar_async
+                0x000000000002093c                uart_intr_enable
+ .text          0x00000000000209a8     0x2260 /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(stdlib.o)
+                0x00000000000209a8                handle_trap
+                0x0000000000020a58                exit
+                0x0000000000020a7c                abort
+                0x0000000000020aac                printstr
+                0x0000000000020ae0                thread_entry
+                0x0000000000020be8                _init
+                0x0000000000020c28                putchar
+                0x0000000000020c78                printhex
+                0x0000000000020f10                atoi
+                0x0000000000020f94                atof
+                0x00000000000210d8                accurate_udelay
+                0x0000000000021144                udelay
+                0x000000000002119c                usleep
+                0x00000000000211f8                get_time
+                0x0000000000022a1c                puts
+                0x0000000000022aa4                printf
+                0x0000000000022b70                sprintf
+                0x0000000000022be4                _sbrk
+ .text          0x0000000000022c08      0x644 /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(rawfloat.o)
+                0x00000000000230cc                ecvt
+                0x000000000002312c                ecvtbuf
+                0x000000000002318c                fcvt
+                0x00000000000231ec                fcvtbuf
+ .text          0x000000000002324c      0x66c /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(debug_uart.o)
+                0x000000000002324c                init_uart
+                0x00000000000232b4                tx_uart
+                0x000000000002331c                rx_uart
+                0x0000000000023370                get_decimal
+                0x0000000000023588                get_long_int
+                0x000000000002373c                get_hex
+ .text          0x00000000000238b8      0x11c /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/../../../../riscv64-vega-elf/lib/rv32im/ilp32/libc.a(lib_a-memcpy.o)
+                0x00000000000238b8                memcpy
+ .text          0x00000000000239d4       0xdc /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/../../../../riscv64-vega-elf/lib/rv32im/ilp32/libc.a(lib_a-memset.o)
+                0x00000000000239d4                memset
+ .text          0x0000000000023ab0       0xfc /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/../../../../riscv64-vega-elf/lib/rv32im/ilp32/libc.a(lib_a-s_modf.o)
+                0x0000000000023ab0                modf
+ .text          0x0000000000023bac       0x38 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/../../../../riscv64-vega-elf/lib/rv32im/ilp32/libc.a(lib_a-strnlen.o)
+                0x0000000000023bac                strnlen
+ .text          0x0000000000023be4      0x7d8 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(adddf3.o)
+                0x0000000000023be4                __adddf3
+ .text          0x00000000000243bc      0x6e4 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(divdf3.o)
+                0x00000000000243bc                __divdf3
+ .text          0x0000000000024aa0       0x8c /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(eqdf2.o)
+                0x0000000000024aa0                __eqdf2
+                0x0000000000024aa0                __nedf2
+ .text          0x0000000000024b2c       0xe4 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(gedf2.o)
+                0x0000000000024b2c                __gtdf2
+                0x0000000000024b2c                __gedf2
+ .text          0x0000000000024c10       0xe4 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(ledf2.o)
+                0x0000000000024c10                __ltdf2
+                0x0000000000024c10                __ledf2
+ .text          0x0000000000024cf4      0x5cc /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(muldf3.o)
+                0x0000000000024cf4                __muldf3
+ .text          0x00000000000252c0      0x7ec /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(subdf3.o)
+                0x00000000000252c0                __subdf3
+ .text          0x0000000000025aac       0x80 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(fixdfsi.o)
+                0x0000000000025aac                __fixdfsi
+ .text          0x0000000000025b2c       0x7c /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(fixunsdfsi.o)
+                0x0000000000025b2c                __fixunsdfsi
+ .text          0x0000000000025ba8       0x80 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(floatunsidf.o)
+                0x0000000000025ba8                __floatunsidf
+ .text          0x0000000000025c28      0x45c /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(addsf3.o)
+                0x0000000000025c28                __addsf3
+ .text          0x0000000000026084      0x338 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(divsf3.o)
+                0x0000000000026084                __divsf3
+ .text          0x00000000000263bc      0x308 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(mulsf3.o)
+                0x00000000000263bc                __mulsf3
+ .text          0x00000000000266c4      0x108 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(floatsisf.o)
+                0x00000000000266c4                __floatsisf
+ .text          0x00000000000267cc       0x4c /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+                0x00000000000267cc                __clzsi2
+
+.text.main      0x0000000000026818      0x214
+ .text.main     0x0000000000026818      0x214 build/fixed.o
+                0x0000000000026818                main
+
+.rodata         0x0000000000026a30      0x520
+ .rodata        0x0000000000026a30      0x107 build/fixed.o
+ *fill*         0x0000000000026b37        0x1 
+ .rodata        0x0000000000026b38        0x8 /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(uart.o)
+ .rodata        0x0000000000026b40      0x204 /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(stdlib.o)
+ *fill*         0x0000000000026d44        0x4 
+ .rodata        0x0000000000026d48       0x18 /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(rawfloat.o)
+ .rodata        0x0000000000026d60       0x3c /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .rodata        0x0000000000026d9c       0x3c /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .rodata        0x0000000000026dd8       0x3c /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(divsf3.o)
+ .rodata        0x0000000000026e14       0x3c /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(mulsf3.o)
+ .rodata        0x0000000000026e50      0x100 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(_clz.o)
+                0x0000000000026e50                __clz_tab
+
+.rela.dyn       0x0000000000026f50       0x24
+ .rela.got      0x0000000000026f50       0x24 build/fixed.o
+ .rela.text     0x0000000000026f74        0x0 build/fixed.o
+ .rela.text.init
+                0x0000000000026f74        0x0 build/fixed.o
+
+.data
+ *(.data)
+
+.got            0x0000000000026f74       0x10
+ .got           0x0000000000026f74       0x10 build/fixed.o
+                0x0000000000026f74                _GLOBAL_OFFSET_TABLE_
+
+.got.plt        0x0000000000026f84        0x8
+ .got.plt       0x0000000000026f84        0x8 build/fixed.o
+
+.sdata          0x0000000000026f8c        0x8
+                0x000000000002778c                __global_pointer$ = (. + 0x800)
+ *(.srodata.cst16)
+ *(.srodata.cst8)
+ *(.srodata.cst4)
+ *(.srodata.cst2)
+ *(.srodata*)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata         0x0000000000026f8c        0x8 /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(stdlib.o)
+
+.sbss           0x0000000000026f94        0x4
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x0000000000026f94        0x4 /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(stdlib.o)
+                0x0000000000026f94                loop_count
+ *(.scommon)
+
+.bss            0x0000000000026f98       0x50
+ *(.bss)
+ .bss           0x0000000000026f98       0x50 /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(rawfloat.o)
+
+.tdata          0x0000000000026fe8        0x0
+                0x0000000000026fe8                _tls_data = .
+ *(.tdata.begin)
+ .tdata.begin   0x0000000000026fe8        0x0 /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(crt.o)
+ *(.tdata)
+ *(.tdata.end)
+ .tdata.end     0x0000000000026fe8        0x0 /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(crt.o)
+
+.tbss           0x0000000000026fe8        0x0
+ *(.tbss)
+ *(.tbss.end)
+ .tbss.end      0x0000000000026fe8        0x0 /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(crt.o)
+                0x0000000000026fe8                _end = .
+OUTPUT(build/fixed.elf elf32-littleriscv)
+
+.comment        0x0000000000000000       0x12
+ .comment       0x0000000000000000       0x12 build/fixed.o
+                                         0x13 (size before relaxing)
+ .comment       0x0000000000000012       0x13 /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(uart.o)
+ .comment       0x0000000000000012       0x13 /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(stdlib.o)
+ .comment       0x0000000000000012       0x13 /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(rawfloat.o)
+ .comment       0x0000000000000012       0x13 /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(debug_uart.o)
+ .comment       0x0000000000000012       0x13 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/../../../../riscv64-vega-elf/lib/rv32im/ilp32/libc.a(lib_a-memcpy.o)
+ .comment       0x0000000000000012       0x13 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/../../../../riscv64-vega-elf/lib/rv32im/ilp32/libc.a(lib_a-s_modf.o)
+ .comment       0x0000000000000012       0x13 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/../../../../riscv64-vega-elf/lib/rv32im/ilp32/libc.a(lib_a-strnlen.o)
+ .comment       0x0000000000000012       0x13 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(adddf3.o)
+ .comment       0x0000000000000012       0x13 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .comment       0x0000000000000012       0x13 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(eqdf2.o)
+ .comment       0x0000000000000012       0x13 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(gedf2.o)
+ .comment       0x0000000000000012       0x13 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(ledf2.o)
+ .comment       0x0000000000000012       0x13 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .comment       0x0000000000000012       0x13 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(subdf3.o)
+ .comment       0x0000000000000012       0x13 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(fixdfsi.o)
+ .comment       0x0000000000000012       0x13 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(fixunsdfsi.o)
+ .comment       0x0000000000000012       0x13 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(floatunsidf.o)
+ .comment       0x0000000000000012       0x13 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(addsf3.o)
+ .comment       0x0000000000000012       0x13 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(divsf3.o)
+ .comment       0x0000000000000012       0x13 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(mulsf3.o)
+ .comment       0x0000000000000012       0x13 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(floatsisf.o)
+ .comment       0x0000000000000012       0x13 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+ .comment       0x0000000000000012       0x13 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(_clz.o)
+
+.riscv.attributes
+                0x0000000000000000       0x25
+ .riscv.attributes
+                0x0000000000000000       0x21 build/fixed.o
+ .riscv.attributes
+                0x0000000000000021       0x21 /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(uart.o)
+ .riscv.attributes
+                0x0000000000000042       0x25 /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(stdlib.o)
+ .riscv.attributes
+                0x0000000000000067       0x21 /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(rawfloat.o)
+ .riscv.attributes
+                0x0000000000000088       0x23 /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(crt.o)
+ .riscv.attributes
+                0x00000000000000ab       0x21 /home/manjunath/Desktop/Final/vega-sdk/bsp/libvega.a(debug_uart.o)
+ .riscv.attributes
+                0x00000000000000cc       0x21 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/../../../../riscv64-vega-elf/lib/rv32im/ilp32/libc.a(lib_a-memcpy.o)
+ .riscv.attributes
+                0x00000000000000ed       0x1f /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/../../../../riscv64-vega-elf/lib/rv32im/ilp32/libc.a(lib_a-memset.o)
+ .riscv.attributes
+                0x000000000000010c       0x21 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/../../../../riscv64-vega-elf/lib/rv32im/ilp32/libc.a(lib_a-s_modf.o)
+ .riscv.attributes
+                0x000000000000012d       0x21 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/../../../../riscv64-vega-elf/lib/rv32im/ilp32/libc.a(lib_a-strnlen.o)
+ .riscv.attributes
+                0x000000000000014e       0x21 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(adddf3.o)
+ .riscv.attributes
+                0x000000000000016f       0x21 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .riscv.attributes
+                0x0000000000000190       0x21 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(eqdf2.o)
+ .riscv.attributes
+                0x00000000000001b1       0x21 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(gedf2.o)
+ .riscv.attributes
+                0x00000000000001d2       0x21 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(ledf2.o)
+ .riscv.attributes
+                0x00000000000001f3       0x21 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .riscv.attributes
+                0x0000000000000214       0x21 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(subdf3.o)
+ .riscv.attributes
+                0x0000000000000235       0x21 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(fixdfsi.o)
+ .riscv.attributes
+                0x0000000000000256       0x21 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(fixunsdfsi.o)
+ .riscv.attributes
+                0x0000000000000277       0x21 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(floatunsidf.o)
+ .riscv.attributes
+                0x0000000000000298       0x21 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(addsf3.o)
+ .riscv.attributes
+                0x00000000000002b9       0x21 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(divsf3.o)
+ .riscv.attributes
+                0x00000000000002da       0x21 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(mulsf3.o)
+ .riscv.attributes
+                0x00000000000002fb       0x21 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(floatsisf.o)
+ .riscv.attributes
+                0x000000000000031c       0x21 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+ .riscv.attributes
+                0x000000000000033d       0x21 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(_clz.o)
+
+.debug_info     0x0000000000000000     0x35a1
+ .debug_info    0x0000000000000000      0x581 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(adddf3.o)
+ .debug_info    0x0000000000000581      0x72a /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .debug_info    0x0000000000000cab      0x255 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(eqdf2.o)
+ .debug_info    0x0000000000000f00      0x253 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(gedf2.o)
+ .debug_info    0x0000000000001153      0x253 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(ledf2.o)
+ .debug_info    0x00000000000013a6      0x766 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .debug_info    0x0000000000001b0c      0x581 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(subdf3.o)
+ .debug_info    0x000000000000208d      0x1e7 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(fixdfsi.o)
+ .debug_info    0x0000000000002274      0x1d5 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(fixunsdfsi.o)
+ .debug_info    0x0000000000002449      0x28e /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(floatunsidf.o)
+ .debug_info    0x00000000000026d7      0x33c /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(addsf3.o)
+ .debug_info    0x0000000000002a13      0x3a3 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(divsf3.o)
+ .debug_info    0x0000000000002db6      0x394 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(mulsf3.o)
+ .debug_info    0x000000000000314a      0x23c /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(floatsisf.o)
+ .debug_info    0x0000000000003386      0x144 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+ .debug_info    0x00000000000034ca       0xd7 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(_clz.o)
+
+.debug_abbrev   0x0000000000000000     0x14d6
+ .debug_abbrev  0x0000000000000000      0x173 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(adddf3.o)
+ .debug_abbrev  0x0000000000000173      0x173 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .debug_abbrev  0x00000000000002e6      0x14b /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(eqdf2.o)
+ .debug_abbrev  0x0000000000000431      0x15e /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(gedf2.o)
+ .debug_abbrev  0x000000000000058f      0x15e /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(ledf2.o)
+ .debug_abbrev  0x00000000000006ed      0x185 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .debug_abbrev  0x0000000000000872      0x173 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(subdf3.o)
+ .debug_abbrev  0x00000000000009e5      0x15e /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(fixdfsi.o)
+ .debug_abbrev  0x0000000000000b43      0x15e /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(fixunsdfsi.o)
+ .debug_abbrev  0x0000000000000ca1      0x164 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(floatunsidf.o)
+ .debug_abbrev  0x0000000000000e05      0x161 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(addsf3.o)
+ .debug_abbrev  0x0000000000000f66      0x14c /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(divsf3.o)
+ .debug_abbrev  0x00000000000010b2      0x166 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(mulsf3.o)
+ .debug_abbrev  0x0000000000001218      0x184 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(floatsisf.o)
+ .debug_abbrev  0x000000000000139c       0xca /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+ .debug_abbrev  0x0000000000001466       0x70 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(_clz.o)
+
+.debug_loc      0x0000000000000000     0x641e
+ .debug_loc     0x0000000000000000     0x11ec /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(adddf3.o)
+ .debug_loc     0x00000000000011ec     0x1494 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .debug_loc     0x0000000000002680       0xa4 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(eqdf2.o)
+ .debug_loc     0x0000000000002724      0x135 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(gedf2.o)
+ .debug_loc     0x0000000000002859      0x135 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(ledf2.o)
+ .debug_loc     0x000000000000298e      0xd56 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .debug_loc     0x00000000000036e4     0x114d /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(subdf3.o)
+ .debug_loc     0x0000000000004831      0x181 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(fixdfsi.o)
+ .debug_loc     0x00000000000049b2       0xe7 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(fixunsdfsi.o)
+ .debug_loc     0x0000000000004a99      0x14f /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(floatunsidf.o)
+ .debug_loc     0x0000000000004be8      0x909 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(addsf3.o)
+ .debug_loc     0x00000000000054f1      0x74d /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(divsf3.o)
+ .debug_loc     0x0000000000005c3e      0x5e4 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(mulsf3.o)
+ .debug_loc     0x0000000000006222      0x191 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(floatsisf.o)
+ .debug_loc     0x00000000000063b3       0x6b /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+
+.debug_aranges  0x0000000000000000      0x1f8
+ .debug_aranges
+                0x0000000000000000       0x20 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(adddf3.o)
+ .debug_aranges
+                0x0000000000000020       0x20 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .debug_aranges
+                0x0000000000000040       0x20 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(eqdf2.o)
+ .debug_aranges
+                0x0000000000000060       0x20 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(gedf2.o)
+ .debug_aranges
+                0x0000000000000080       0x20 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(ledf2.o)
+ .debug_aranges
+                0x00000000000000a0       0x20 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .debug_aranges
+                0x00000000000000c0       0x20 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(subdf3.o)
+ .debug_aranges
+                0x00000000000000e0       0x20 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(fixdfsi.o)
+ .debug_aranges
+                0x0000000000000100       0x20 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(fixunsdfsi.o)
+ .debug_aranges
+                0x0000000000000120       0x20 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(floatunsidf.o)
+ .debug_aranges
+                0x0000000000000140       0x20 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(addsf3.o)
+ .debug_aranges
+                0x0000000000000160       0x20 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(divsf3.o)
+ .debug_aranges
+                0x0000000000000180       0x20 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(mulsf3.o)
+ .debug_aranges
+                0x00000000000001a0       0x20 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(floatsisf.o)
+ .debug_aranges
+                0x00000000000001c0       0x20 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+ .debug_aranges
+                0x00000000000001e0       0x18 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(_clz.o)
+
+.debug_ranges   0x0000000000000000      0xce0
+ .debug_ranges  0x0000000000000000      0x248 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(adddf3.o)
+ .debug_ranges  0x0000000000000248      0x198 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .debug_ranges  0x00000000000003e0       0x48 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(eqdf2.o)
+ .debug_ranges  0x0000000000000428       0x50 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(gedf2.o)
+ .debug_ranges  0x0000000000000478       0x50 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(ledf2.o)
+ .debug_ranges  0x00000000000004c8      0x1e0 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .debug_ranges  0x00000000000006a8      0x250 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(subdf3.o)
+ .debug_ranges  0x00000000000008f8       0x18 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(fixdfsi.o)
+ .debug_ranges  0x0000000000000910       0x20 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(fixunsdfsi.o)
+ .debug_ranges  0x0000000000000930       0x70 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(floatunsidf.o)
+ .debug_ranges  0x00000000000009a0      0x168 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(addsf3.o)
+ .debug_ranges  0x0000000000000b08       0xc0 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(divsf3.o)
+ .debug_ranges  0x0000000000000bc8       0xa8 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(mulsf3.o)
+ .debug_ranges  0x0000000000000c70       0x50 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(floatsisf.o)
+ .debug_ranges  0x0000000000000cc0       0x20 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+
+.debug_line     0x0000000000000000     0x6a22
+ .debug_line    0x0000000000000000     0x1013 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(adddf3.o)
+ .debug_line    0x0000000000001013      0xf6a /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .debug_line    0x0000000000001f7d      0x250 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(eqdf2.o)
+ .debug_line    0x00000000000021cd      0x2e5 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(gedf2.o)
+ .debug_line    0x00000000000024b2      0x2e5 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(ledf2.o)
+ .debug_line    0x0000000000002797      0xda5 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .debug_line    0x000000000000353c     0x1078 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(subdf3.o)
+ .debug_line    0x00000000000045b4      0x214 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(fixdfsi.o)
+ .debug_line    0x00000000000047c8      0x1a5 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(fixunsdfsi.o)
+ .debug_line    0x000000000000496d      0x26e /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(floatunsidf.o)
+ .debug_line    0x0000000000004bdb      0xa34 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(addsf3.o)
+ .debug_line    0x000000000000560f      0x844 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(divsf3.o)
+ .debug_line    0x0000000000005e53      0x755 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(mulsf3.o)
+ .debug_line    0x00000000000065a8      0x33c /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(floatsisf.o)
+ .debug_line    0x00000000000068e4       0xe5 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+ .debug_line    0x00000000000069c9       0x59 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(_clz.o)
+
+.debug_str      0x0000000000000000      0xb1d
+ .debug_str     0x0000000000000000      0x300 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(adddf3.o)
+                                        0x33b (size before relaxing)
+ .debug_str     0x0000000000000300      0x1e4 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(divdf3.o)
+                                        0x3fd (size before relaxing)
+ .debug_str     0x00000000000004e4       0x59 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(eqdf2.o)
+                                        0x24c (size before relaxing)
+ .debug_str     0x000000000000053d       0x5e /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(gedf2.o)
+                                        0x270 (size before relaxing)
+ .debug_str     0x000000000000059b       0x3a /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(ledf2.o)
+                                        0x270 (size before relaxing)
+ .debug_str     0x00000000000005d5      0x161 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(muldf3.o)
+                                        0x455 (size before relaxing)
+ .debug_str     0x0000000000000736       0x3c /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(subdf3.o)
+                                        0x33b (size before relaxing)
+ .debug_str     0x0000000000000772       0x59 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(fixdfsi.o)
+                                        0x249 (size before relaxing)
+ .debug_str     0x00000000000007cb       0x44 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(fixunsdfsi.o)
+                                        0x248 (size before relaxing)
+ .debug_str     0x000000000000080f       0x73 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(floatunsidf.o)
+                                        0x2e5 (size before relaxing)
+ .debug_str     0x0000000000000882       0x91 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(addsf3.o)
+                                        0x2fe (size before relaxing)
+ .debug_str     0x0000000000000913       0xdc /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(divsf3.o)
+                                        0x368 (size before relaxing)
+ .debug_str     0x00000000000009ef       0x6e /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(mulsf3.o)
+                                        0x323 (size before relaxing)
+ .debug_str     0x0000000000000a5d       0x42 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(floatsisf.o)
+                                        0x2c9 (size before relaxing)
+ .debug_str     0x0000000000000a9f       0x7e /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+                                        0x244 (size before relaxing)
+ .debug_str     0x0000000000000b1d      0x227 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(_clz.o)
+
+.debug_frame    0x0000000000000000      0x334
+ .debug_frame   0x0000000000000000       0x44 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(adddf3.o)
+ .debug_frame   0x0000000000000044       0x58 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .debug_frame   0x000000000000009c       0x20 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(eqdf2.o)
+ .debug_frame   0x00000000000000bc       0x20 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(gedf2.o)
+ .debug_frame   0x00000000000000dc       0x20 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(ledf2.o)
+ .debug_frame   0x00000000000000fc       0x54 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .debug_frame   0x0000000000000150       0x44 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(subdf3.o)
+ .debug_frame   0x0000000000000194       0x20 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(fixdfsi.o)
+ .debug_frame   0x00000000000001b4       0x20 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(fixunsdfsi.o)
+ .debug_frame   0x00000000000001d4       0x34 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(floatunsidf.o)
+ .debug_frame   0x0000000000000208       0x40 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(addsf3.o)
+ .debug_frame   0x0000000000000248       0x4c /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(divsf3.o)
+ .debug_frame   0x0000000000000294       0x48 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(mulsf3.o)
+ .debug_frame   0x00000000000002dc       0x38 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(floatsisf.o)
+ .debug_frame   0x0000000000000314       0x20 /home/manjunath/Desktop/Final/vega-tools/toolchain/bin/../lib/gcc/riscv64-vega-elf/10.1.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
