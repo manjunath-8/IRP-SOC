@@ -23,12 +23,12 @@
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 
 puts "--- Implementation Started ---"
-set DIR_PATH "E:/PROJECTS/IRP/Reference_design"
-set PROJ_DIR "E:/PROJECTS/IRP"
+set DIR_PATH "E:/PROJECTS/IRP/Updated_Referenece_Design"
+set PROJ_DIR "E:/PROJECTS/IRP/Updated_Referenece_Design"
 set DELAY_TIME "5000"
 
 #start_gui
-create_project ET1035_pjt $PROJ_DIR/ET1035_PJT -part xc7a100ticsg324-1L
+create_project ET1035_pjt $PROJ_DIR/ET1035_PJT_V1 -part xc7a100ticsg324-1L
 set_property part xc7a100ticsg324-1L [current_project]
 set_property target_language VHDL [current_project]
  
@@ -44,7 +44,9 @@ export_ip_user_files -of_objects  [get_files  $DIR_PATH/ET1035_SRC/CLOCK_IP/clk_
 add_files $DIR_PATH/ET1035_SRC/MEMORY/ROM/mem_0.vhd 
 add_files $DIR_PATH/ET1035_SRC/MEMORY/ROM/ROM_THEJAS32.vhd
 add_files $DIR_PATH/ET1035_SRC/MEMORY/RAM/mem_1.vhd
-add_files $DIR_PATH/ET1035_SRC/MEMORY/RAM/dual_port_ram.v
+add_files $DIR_PATH/ET1035_SRC/MEMORY/RAM/block_mem_1/block_mem_1.xci 
+export_ip_user_files -of_objects  [get_files  $DIR_PATH/ET1035_SRC/MEMORY/RAM/block_mem_1/block_mem_1.xci] -lib_map_path [list {modelsim=$DIR_PATH/ET1035_IMP/TCL/ET1035_PJT/ET1035_pjt.cache/compile_simlib/modelsim} {questa=$DIR_PATH/ET1035_IMP/TCL/ET1035_PJT/ET1035_pjt.cache/compile_simlib/questa} {ies=$DIR_PATH/ET1035_IMP/TCL/ET1035_PJT/ET1035_pjt.cache/compile_simlib/ies} {xcelium=$DIR_PATH/ET1035_IMP/TCL/ET1035_PJT/ET1035_pjt.cache/compile_simlib/xcelium} {vcs=$DIR_PATH/ET1035_IMP/TCL/ET1035_PJT/ET1035_pjt.cache/compile_simlib/vcs} {riviera=$DIR_PATH/ET1035_IMP/TCL/ET1035_PJT/ET1035_pjt.cache/compile_simlib/riviera}] -force -quiet
+
 add_files $DIR_PATH/ET1035_SRC/GPIO/gpio_chip.v
 add_files $DIR_PATH/ET1035_SRC/SPI/spi_top.v
 add_files $DIR_PATH/ET1035_SRC/SPI/spi_controller.v
@@ -52,6 +54,8 @@ add_files $DIR_PATH/ET1035_SRC/SPI/spi_master.v
 add_files $DIR_PATH/ET1035_SRC/I2C/i2c_top.v
 add_files $DIR_PATH/ET1035_SRC/I2C/i2c_controller.v
 add_files $DIR_PATH/ET1035_SRC/I2C/i2c_master.v
+
+add_files $DIR_PATH/ET1035_SRC/PWM/pwm.v
 
 add_files -fileset constrs_1 -norecurse $DIR_PATH/ET1035_XDC/ET1035_XDC.xdc
 

@@ -175,7 +175,7 @@ architecture sys_top_a of sys_top is
      PRESETn           : in std_logic ; 
      PSEL              : in std_logic ;
      PENABLE           : in std_logic ; 
-     PWrite            : in std_logic ; 
+     PWRITE            : in std_logic ; 
      PADDR             : in std_logic_vector(7 downto 0) ; 
      PWDATA            : in std_logic_vector(7 downto 0) ;   
 	 PRDATA            : out std_logic_vector(7 downto 0) ;
@@ -184,6 +184,18 @@ architecture sys_top_a of sys_top is
 	 ); 
      end component ; 
 	
+	component pwm is
+	 port (
+	 PCLK              : in std_logic ;
+     PRESETn           : in std_logic ; 
+     PSEL              : in std_logic ; 
+     PWrite            : in std_logic ; 
+     PADDR             : in std_logic_vector(7 downto 0) ; 
+     PWDATA            : in std_logic_vector(7 downto 0) ;
+     PWM_OUT           : out std_logic      
+	 ); 
+     end component ; 
+     
 	COMPONENT mem_0
   	 PORT (
 	    clka 			  : IN STD_LOGIC;
@@ -332,6 +344,12 @@ architecture sys_top_a of sys_top is
     signal i2c_dout   : std_logic_vector(7 downto 0);
     signal i2c_cs     : STD_LOGIC;
     signal i2c_rw     : STD_LOGIC;
+    ----------------------PWM---------------------------
+    signal pwm_cs             : STD_LOGIC;
+    signal pwm_rw             : STD_LOGIC;
+    signal st_pin15_mux       : std_logic;
+    signal gpio_pin15         : std_logic;
+    signal pwm_pin            : std_logic;
     ---------------------------------------------------
     
 	begin   
@@ -408,7 +426,7 @@ architecture sys_top_a of sys_top is
       pin12                => st_pin12,   
       pin13                => st_pin13,
       pin14                => st_pin14,
-      pin15                => st_pin15   
+      pin15                => gpio_pin15   
      ) ;
      
    u_spi : spi_top port map (  
@@ -438,6 +456,16 @@ architecture sys_top_a of sys_top is
       i2c_scl              => scl,
       i2c_sda              => sda                  
       ); 
+      
+    u_pwm: pwm port map (
+      PCLK                 => clk_n,             
+      PRESETn              => reset,                            
+      PSEL                 => pwm_cs,                            
+      PADDR                => addrb(7 downto 0),          
+      PWrite               => pwm_rw,                                   
+      PWDATA               => dinb(7 downto 0),
+      PWM_OUT              => pwm_pin  
+      );
         
  	boot_mem : mem_0                                                                                                                                                    
   	PORT MAP (                                                             
@@ -545,6 +573,7 @@ architecture sys_top_a of sys_top is
 	gpio_cs 	<= '1' when addrb(31 downto 8)   = x"100800"  and enb = '1' else '0';                -- 10080000- 100800ff  --GPIO0 
 	spi_cs      <= '1' when addrb(31 downto 8)   = x"100006"  and enb = '1' else '0';	             -- 10000600- 100006ff  --SPI0
 	i2c_cs      <= '1' when addrb(31 downto 8)   = x"100008"  and enb = '1' else '0';	             -- 10000800- 100008ff  --I2C0
+	pwm_cs      <= '1' when addrb(31 downto 8)   = x"104000"  and enb = '1' else '0';	             -- 10400000- 104000ff  --PWM
 	dmem_cs 	<= '1' when addrb(31 downto 16)  = x"0001"    and enb = '1' else '0';                -- 00010000-00017fff   --Boot Memory 
 	
 	uart_rd0 <= '1' when uart_cs0 = '1' and web_rw ='0' else '0'; 
@@ -552,9 +581,23 @@ architecture sys_top_a of sys_top is
     gpio_rw  <= '1' when gpio_cs = '1' and web_rw ='1' else '0';
     spi_rw   <= '1' when spi_cs = '1' and web_rw ='1' else '0';
     i2c_rw   <= '1' when i2c_cs = '1' and web_rw ='1' else '0';
+    pwm_rw   <= '1' when pwm_cs = '1' and web_rw ='1' else '0';
     
 	fromhost_rd <= '1' when addrb = x"80001040" and enb = '1' and web_rw ='0' else '0'; 
-	
+    
+    -- Multiplexer logic to drive st_pin15
+    process (clk_n)
+     begin
+      if addrb(31 downto 8) = x"100800" then
+        st_pin15_mux <= gpio_pin15; -- GPIO drives st_pin15
+      else
+        st_pin15_mux <= pwm_pin;    -- PWM drives st_pin15
+      end if;
+     end process;
+
+     -- Assign the multiplexer output to st_pin15
+     st_pin15 <= st_pin15_mux;
+
 	proc_beat_gen: process(clk_p,rst_in)
    
     begin 

@@ -19,7 +19,7 @@ libvega_a_SOURCES = \
 	./drivers/timer/timer.c \
 	./drivers/adc/adc.c \
 	./drivers/interrupt/interrupt.c \
-	./drivers/pwm/pwmc.c \
+	./drivers/pwm/pwm.c \
 	./common/stdlib.c \
 	./common/rawfloat.c \
 	./common/crt.S
@@ -36,7 +36,7 @@ nobase_include_HEADERS = \
 	./include/debug_uart.h \
 	./include/adc.h \
 	./include/interrupt.h \
-	./include/pwmc.h \
+	./include/pwm.h \
 	./include/encoding.h \
 	./include/stdlib.h
 

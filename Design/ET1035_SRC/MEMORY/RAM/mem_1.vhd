@@ -50,7 +50,7 @@ end mem_1 ;
 
 architecture mem_1_a of mem_1 is  
 
-COMPONENT dual_port_ram
+COMPONENT block_mem_1
   PORT (
     clka 	: IN STD_LOGIC;
     ena 	: IN STD_LOGIC;
@@ -69,7 +69,7 @@ END COMPONENT;
 
 begin 
 
-blk_mem_1 : dual_port_ram 
+blk_mem_1 : block_mem_1 
 
   PORT MAP (  
   
